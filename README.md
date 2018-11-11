@@ -22,11 +22,15 @@ sdat2img.py <transfer_list> <system_new_file> [system_img]
 
 
 ## Example
-This is a simple example on a Linux system: 
+This is a simple example on a Linux system to Extract system.new.dat
 ```
 ~$ ./sdat2img.py system.transfer.list system.new.dat system.img
 ```
 
+This is a simple example on a Linux system to Extract vendor.new.dat
+```
+~$ ./sdat2img.py vendor.transfer.list vendor.new.dat vendor.img
+```
 
 
 ## OTAs
